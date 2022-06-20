@@ -1,0 +1,25 @@
+.top{
+    background-color: #1F2937;
+}
+.title-text{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+.header{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.summary, .header-link{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.header, .header-link{
+    display: flex;
+}
