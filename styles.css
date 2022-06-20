@@ -1,8 +1,14 @@
 body{
     font-family: "Roboto";
+    margin:0;
+    
 }
+
 .top{
     background-color: #1F2937;
+    height: 100%;
+    width: 100%;
+    padding-top: 10px;
 }
 .title-text{
     font-size: 48px;
@@ -137,3 +143,9 @@ li{
     height: 35px;
 }
 
+footer{
+    color:#F9FAF8;
+    background-color: #1F2937;
+    text-align: center;
+    padding: 15px 0;
+}
