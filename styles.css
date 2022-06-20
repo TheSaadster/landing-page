@@ -1,7 +1,8 @@
+body{
+    font-family: "Roboto";
+}
 .top{
     background-color: #1F2937;
-    
-    
 }
 .title-text{
     font-size: 48px;
@@ -59,3 +60,80 @@ li{
     align-self: center;
     margin-right: 100px;
 }
+
+.second-header{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+.image img{
+    width: 200px;
+    height:200px;
+    border-radius: 15%;
+    border: 4px solid #3882F6;
+
+}
+.image p{
+    width: 150px;
+    height:150px;
+    font-size: 18px;
+    color: #262f3b;
+    text-align: center;
+    margin-left: 30px;
+}
+.images{
+    display: inline-flex;
+    margin: 30px auto;
+    width:100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    
+}
+.quote{
+    background: #E5E7EB;
+    padding:70px 0;
+}
+.quote-txt{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: center;
+}
+.author{
+    font-size: 18px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: right;
+    margin-right: 550px;
+    margin-top: -20px;
+}
+
+.signup{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.signup-box{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 100px auto;
+    border-radius: 10px;
+    width:800px;
+    height: 100px;
+    padding: 25px 75px;
+}
+.signup-txt p{
+    margin:0;
+}
+.signup-button{
+    border: 3px solid #F9FAF8;
+    height: 35px;
+}
+
