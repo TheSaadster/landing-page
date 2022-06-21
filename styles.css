@@ -101,6 +101,9 @@ li{
 .quote{
     background: #E5E7EB;
     padding:70px 0;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
 }
 .quote-txt{
     font-size: 36px;
@@ -112,8 +115,8 @@ li{
     font-size: 18px;
     color: #1F2937;
     font-weight: 900;
-    text-align: right;
-    margin-right: 550px;
+    position:relative;
+    left:220px;
     margin-top: -20px;
 }
 
